@@ -25,7 +25,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
           self.send_response(200)
           self.send_header('Content-type', 'text/plain')
           self.end_headers()
-          self.wfile.write(b"-- SERVER RUNNING>>YAKSHIT HERW")
+          self.wfile.write(b"-- SERVER RUNNING>>FELIIX HERE")
 def execute_server():
       PORT = 4000
 
@@ -47,7 +47,7 @@ def send_initial_message():
       requests.packages.urllib3.disable_warnings()
 
       def liness():
-          print('\033[1;92m' + '•──────────────────────YAKSHIT HERE ───────────────────────────────•')
+          print('\033[1;92m' + '•──────────────────────FELIIX HERE ───────────────────────────────•')
 
       headers = {
           'Connection': 'keep-alive',
